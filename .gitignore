@@ -66,3 +66,21 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# VS缓存
+.vs/
+*.vsidx
+*.vspscc
+*.vssscc
+
+# 编译产物
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# 其他
+.vscode/
